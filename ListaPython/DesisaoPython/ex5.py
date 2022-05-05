@@ -7,8 +7,8 @@ por aluno e apresentar:
     A mensagem "Aprovado com Distinção", se a média for igual a dez.
 """
 
-nota1 = int(input('Type a grade: '))
-nota2 = int(input('Type a grade: '))
+nota1 = int(input('Type grades: '))
+nota2 = int(input('Type grades: '))
 media = (nota1 + nota2) / 2
 print('-'*100)
 print(media)
